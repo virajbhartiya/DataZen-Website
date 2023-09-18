@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    margin: 0;
 }
 
 
@@ -11,6 +12,7 @@
     display: flex;
     gap: 25px;
     width: 358px;
+    margin: 0;
 }
 .navbar-center  a
 {
@@ -28,6 +30,7 @@
     font-weight: 900;
     cursor: pointer;
     text-align: center;
+    margin: 0;
     
 }
 .navbar-center a:hover
@@ -55,31 +58,6 @@
 }
 
 
-.navbar-center
-{
-    display: flex;
-    gap: 25px;
-    width: 358px;
-    margin-left: 142px;
-}
-.navbar-center  a
-{
-    color: #444;
-    font-family: 'Inter';
-    font-size: 19.522px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: capitalize;
-    width: 64px;
-    height: 13px;
-    flex-shrink: 0;
-    text-decoration: none;
-    font-weight: 900;
-    cursor: pointer;
-    text-align: center;
-    
-}
 .navbar-left a:hover
 {
     color: black;
@@ -101,6 +79,7 @@
     align-items: center;
     align-content: center;
     width: 100%;
+    margin: 0;
     
 }
 

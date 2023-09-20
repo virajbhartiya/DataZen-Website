@@ -11,7 +11,12 @@ function Navbar()
     <nav className="navbar">
       <div className='menu'>
       <button>
-            <img src={menu_icon} alt="" srcset="" className='menu-icon'/>
+      <svg width="23" height="14" viewBox="0 0 23 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="23" height="2" transform="matrix(-1 0 0 1 23 0)" fill="#CC0000"/>
+<rect width="23" height="2" transform="matrix(-1 0 0 1 23 6)" fill="#CC0000"/>
+<rect width="23" height="2" transform="matrix(-1 0 0 1 23 12)" fill="#CC0000"/>
+</svg>
+
       </button>
         
       </div>

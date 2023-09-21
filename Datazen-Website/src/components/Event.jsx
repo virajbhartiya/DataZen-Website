@@ -1,53 +1,47 @@
 import React from 'react';
-import './Event.css';
-import Photo from '../imgs/7_days.jpg'
+import '../styles/Event.css';
+import EventSection from './EventSection';
 
 function Event() {
   const items = [
     {
-      id: 1,
-      content: "some content",
-      img: {Photo} 
+      title:'Title 1',
+      content: "Lorem ipsum dolor sit amet.",
+      img: './assets/7_days.jpg' ,
+      linkto:'https://www.figma.com/file/BuMG7YKn63oDxs7Yt2dxGe/datazen?node-id=0%3A1&mode=dev'
     },
     {
-      id: 2,
-      content: "some content",
-      img: "/img_url" // Update with the correct image path
+      title:'Title 2',
+      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      img: './assets/7_days.jpg' 
     },
     {
-      id: 3,
-      content: "some content",
-      img: "/img_url" // Update with the correct image path
+      title:'Title 3',
+      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, saepe?",
+      img: './assets/7_days.jpg' 
+      
     },
   ];
   
 
   return (
     <>
+      
       <div className='title'>
         <div>
           <h1>Events</h1>
         </div>
       </div>
 
-      <img src="./imgs/" alt="" srcset="" />
-      <div className='contents'>
-      <div >
-        {items.map((item, i)=>(
-          <div key={item.id} className={`row ${i%2 ? 'right' : 'left'}`}  >
-            <div className='event-image'>
-                <img src={Photo} className='event-img'/>
+      {items.map(({title,content,img,linkto},i)=>
+      
+      <EventSection isLeft={i%2 ? false : true} linker={linkto} title={title} content={content} imageLink={img}    />
+      
+      )}
 
-            </div>
-            <div className="event-content">
-                <p>{item.content}</p>
-            </div>
-            </div>
-        ))}
 
       
-        </div>
-      </div>
+     
     </>
   );
 }

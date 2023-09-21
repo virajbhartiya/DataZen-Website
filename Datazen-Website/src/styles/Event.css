@@ -80,6 +80,7 @@ h1::after
 {
     width: 556.664px;
     height: 377.778px;
-    -webkit-box-shadow: 18px -13px 0px 5px #8A0000; 
-    box-shadow: 18px -13px 0px 5px #8A0000;
+    -webkit-box-shadow: 18px -13px 0px 5px #C00; 
+    box-shadow: 18px -13px 0px 5px #C00;
+    
 }

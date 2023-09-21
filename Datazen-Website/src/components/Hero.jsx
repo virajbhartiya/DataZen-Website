@@ -1,6 +1,7 @@
 import React from 'react'
 import './Hero.css'; 
 import DataZen_Logo from '../imgs/DataZen_Logo.png';
+import Layer from '../imgs/mobile_design_layer.svg';
 
 function Hero() 
 {
@@ -46,8 +47,11 @@ function Hero()
         </defs>
         </svg>
 
+      </div>
 
-        <div className='layer-3'>
+
+     
+      <div className='layer-3'>
             <svg width="734" height="323" viewBox="0 0 734 323" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_i_22_34)">
             <path d="M734.801 0L-6.10352e-05 323H734.801V0Z" fill="#8A0000"/>
@@ -83,20 +87,14 @@ function Hero()
             </defs>
             </svg>
 
-
-
-          <div>
-            
-          </div>
-
-        </div>
-        
-
-
-
       
 
-        </div>
+      </div>
+       
+
+
+    
+
 
       </div>
     </>

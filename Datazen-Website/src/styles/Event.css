@@ -58,12 +58,13 @@ h1::after
     
 }
 
-.event-content
+.event-content-box
 {
     width: 50%;
     display: flex;
     text-align: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .event-image 
@@ -83,4 +84,11 @@ h1::after
     -webkit-box-shadow: 18px -13px 0px 5px #C00; 
     box-shadow: 18px -13px 0px 5px #C00;
     
+}
+
+.event-content
+{
+    text-align: left;
+   
+    font-size: 18px;
 }

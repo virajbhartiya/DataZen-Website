@@ -1,5 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
+import '../styles/EventSection.css'
+
 
 function EventSection({isLeft,title,content,linker,imageLink}) 
 {
@@ -13,9 +15,13 @@ function EventSection({isLeft,title,content,linker,imageLink})
 
             </div>
             
-            <div className="event-content">
-                <div>{title}</div>
+            <div className="event-content-box">
+             
+                <b><h3 className='event-title'>{title}</h3></b>
+                <div className='event-content'>
                 <p>{content}</p>
+                </div>
+                
                 {linker && <Link to={linker}>Register</Link>}
             </div>
             </div>

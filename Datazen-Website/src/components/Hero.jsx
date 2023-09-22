@@ -1,5 +1,5 @@
 import React from 'react'
-import './Hero.css'; 
+import '../styles/Hero.css'; 
 import DataZen_Logo from '../imgs/DataZen_Logo.png';
 import Layer from '../imgs/mobile_design_layer.svg';
 

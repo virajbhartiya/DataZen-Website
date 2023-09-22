@@ -2,11 +2,13 @@ import React from 'react';
 import '../styles/Event.css';
 import EventSection from './EventSection';
 
+
+
 function Event() {
   const items = [
     {
       title:'Title 1',
-      content: "Lorem ipsum dolor sit amet.",
+      content: "Lorem ipsum dolor sit amet.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, reiciendis sit voluptatum vero deleniti blanditiis quaerat, enim illum repudiandae consectetur magni voluptatibus veniam? Repudiandae necessitatibus quas, numquam nobis voluptate unde, consequatur odio aperiam aspernatur adipisci ea sit inventore. Sequi deserunt quidem dolorem dolores ipsa minus dignissimos odit, necessitatibus eveniet iure?",
       img: './assets/7_days.jpg' ,
       linkto:'https://www.figma.com/file/BuMG7YKn63oDxs7Yt2dxGe/datazen?node-id=0%3A1&mode=dev'
     },

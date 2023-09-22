@@ -1,7 +1,8 @@
 import React from 'react'
-import './Navbar.css'; 
+import '../styles/Navbar.css'; 
 import SomaiyaLogo from '../imgs/Somaiya_logo.png'; 
 import menu_icon from '../imgs/menu-icon.svg';
+
 
 function Navbar() 
 {

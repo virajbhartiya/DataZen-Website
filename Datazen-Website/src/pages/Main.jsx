@@ -10,7 +10,7 @@ function Mainpage()
    <>
     <Hero/>
     <About />
-    <Event />
+    {/* <Event /> */}
     
    </>
   )

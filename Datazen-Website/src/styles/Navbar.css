@@ -9,6 +9,7 @@
     align-items: center;
     width: 100%;
     margin: 0;
+    position: relative;
 }
     
 .menu
@@ -107,6 +108,11 @@
     flex-basis: 20%;
 }
 
+.dropdown
+{
+    display: none;
+}
+
 }
 
 @media (max-width:1060px)
@@ -159,5 +165,66 @@
         background-color: white;
         border: 0;
     }
+    
+/* Updated CSS for the dropdown section with animation */
 
+/* Container for the entire dropdown */
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    z-index: 500;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: 20px;
+    opacity: 0; /* Initially hide the dropdown */
+    transform: translateY(-10px); /* Move it up slightly */
+    animation: fadeIn 0.3s ease forwards; /* Apply the fade-in animation */
+  }
+  
+  /* Header style for the dropdown */
+  .dropdown h3 {
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0; /* Add padding to center text vertically */
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    color: #444;
+    position: relative;
+  }
+  
+  
+  .dropdown h3::after 
+  {
+    content: '';
+    height: 2px;
+    background-color: #8A0000;
+    width: 100%;
+    display: block;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+ 
+  
+
+  @keyframes fadeIn 
+  {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+
+
+   
 }

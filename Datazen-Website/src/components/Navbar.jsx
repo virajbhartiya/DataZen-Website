@@ -1,17 +1,31 @@
 import React from 'react'
 import '../styles/Navbar.css'; 
 import SomaiyaLogo from '../imgs/Somaiya_logo.png'; 
-import menu_icon from '../imgs/menu-icon.svg';
+import  { useState } from 'react';
 
 
 function Navbar() 
 {
+  const[isDropdownOpen, setisDropdownOpen]= useState(false);
+
+
+  const toggleDropdown = ()=>{
+
+    setisDropdownOpen(!isDropdownOpen);
+  };
+  
+
+
+
+
+
+
   return (
     <>
     <div className='container'>
     <nav className="navbar">
       <div className='menu'>
-      <button>
+      <button onClick={toggleDropdown}>
       <svg width="23" height="14" viewBox="0 0 23 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="23" height="2" transform="matrix(-1 0 0 1 23 0)" fill="#CC0000"/>
 <rect width="23" height="2" transform="matrix(-1 0 0 1 23 6)" fill="#CC0000"/>
@@ -36,7 +50,23 @@ function Navbar()
     
     </nav>
     
+
+   
+
     </div>
+
+
+    {isDropdownOpen && (
+
+        <div className='dropdown'>
+        <h3>Home</h3>
+        <h3>About</h3>
+        <h3>Events</h3>
+        <h3 className='dropteam'>Team</h3>
+        </div>
+           
+          )}
+    
     </>
   
   );

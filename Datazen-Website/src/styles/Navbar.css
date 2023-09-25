@@ -166,9 +166,7 @@
         border: 0;
     }
     
-/* Updated CSS for the dropdown section with animation */
 
-/* Container for the entire dropdown */
 .dropdown {
     display: flex;
     flex-direction: column;
@@ -180,17 +178,17 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     margin-top: 20px;
-    opacity: 0; /* Initially hide the dropdown */
-    transform: translateY(-10px); /* Move it up slightly */
-    animation: fadeIn 0.3s ease forwards; /* Apply the fade-in animation */
+    opacity: 0; 
+    transform: translateY(-10px);
+    animation: fadeIn 0.3s ease forwards; 
   }
   
-  /* Header style for the dropdown */
+ 
   .dropdown h3 {
     height: 40px;
     width: 100%;
     margin: 0;
-    padding: 10px 0; /* Add padding to center text vertically */
+    padding: 10px 0; 
     background-color: white;
     text-align: center;
     font-weight: bold;

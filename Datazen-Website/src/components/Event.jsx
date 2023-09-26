@@ -28,7 +28,7 @@ function Event() {
 
   return (
     <>
-      
+      <div className='whole-event-container'>
       <div className='title'>
         <div>
           <h1>Events</h1>
@@ -40,6 +40,7 @@ function Event() {
       <EventSection isLeft={i%2 ? false : true} linker={linkto} title={title} content={content} imageLink={img}    />
       
       )}
+      </div>
 
 
       

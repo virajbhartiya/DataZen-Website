@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Mainpage from './pages/Main';
 import Navbar from './components/Navbar'
 import MeetTheTeam from './components/MeetTheTeam';
+import Footer from './components/Footer';
+
 
 function App() 
 {
@@ -18,6 +20,8 @@ function App()
       <Routes>
           <Route path='/' element={<Mainpage />} />
       </Routes>
+
+    <Footer/>
     
     </>
   )

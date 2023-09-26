@@ -82,3 +82,48 @@ h1::after
    
     font-size: 18px;
 }
+
+.whole-event-container
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (max-width:1255px) 
+{
+  .left,.right
+  {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .event-img
+  {
+    max-width: 500px;
+    height: auto;
+    min-width: 300px;
+  }
+
+  .title
+  {
+    width: 100%;
+  }
+
+  .right
+  {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    margin-top: 70px;
+  }
+
+ 
+
+
+ 
+
+
+}

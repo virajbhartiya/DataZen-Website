@@ -10,8 +10,8 @@ function Mainpage()
   return (
    <>
     <Hero/>
-    {/* <About /> */}
-    {/* <Event /> */}
+    <About />
+    <Event />
     <MeetTheTeam />
     
    </>

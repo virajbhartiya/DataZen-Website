@@ -1,12 +1,13 @@
 .team-carousel {
   margin: 0 auto;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .slick-track {
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
+  
 }
 
 .team-member {
@@ -17,6 +18,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  
 }
 
 .team-member img {
@@ -37,6 +39,7 @@
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  
 }
 
 .team-member-socials a {

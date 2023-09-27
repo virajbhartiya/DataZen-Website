@@ -1,0 +1,30 @@
+
+
+.footer-container 
+{
+    background-color: #8A0000; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center;
+}
+  
+  .social-icons
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+  
+  .social-icons a 
+  {
+    color: #fff; 
+    margin: 0 10px; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover 
+  {
+    color: red; 
+  }
+  

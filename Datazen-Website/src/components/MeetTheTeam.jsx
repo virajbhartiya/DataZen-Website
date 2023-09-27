@@ -6,87 +6,94 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "../styles/MeetTheTeam.css";
 
 const teamMembers = [
-    {
-        name: 'Rahul Dandona',
-        designation: 'Web Developer',
-        linkedin: 'https://linkedin.com/in/rahul-dandona',
-        github: 'https://github.com/harshaldulera',
-        image: 'https://i.imgur.com/sbJZ6GN.jpeg',
-    },
-    {
-        name: 'Rahul Hello',
-        designation: 'Web Developer',
-        linkedin: 'https://linkedin.com/in/rahul-dandona',
-        github: 'https://github.com/harshaldulera',
-        image: 'https://i.imgur.com/sbJZ6GN.jpeg',
-    },
-    {
-        name: 'Rahul 2',
-        designation: 'Web Developer',
-        linkedin: 'https://linkedin.com/in/rahul-dandona',
-        github: 'https://github.com/harshaldulera',
-        image: 'https://i.imgur.com/sbJZ6GN.jpeg',
-    },  
-    {
-        name: 'Rahul 3',
-        designation: 'Web Developer',
-        linkedin: 'https://linkedin.com/in/rahul-dandona',
-        github: 'https://github.com/harshaldulera',
-        image: 'https://i.imgur.com/sbJZ6GN.jpeg',
-    },
-    {
-        name: 'Rahul 4',
-        designation: 'Web Developer',
-        linkedin: 'https://linkedin.com/in/rahul-dandona',
-        github: 'https://github.com/harshaldulera',
-        image: 'https://i.imgur.com/sbJZ6GN.jpeg',
-    },
-    {
-        name: 'Rahul 5',
-        designation: 'Web Developer',
-        linkedin: 'https://linkedin.com/in/rahul-dandona',
-        github: 'https://github.com/harshaldulera',
-        image: 'https://i.imgur.com/sbJZ6GN.jpeg',
-    },
-    {
-        name: 'Rahul 6',
-        designation: 'Web Developer',
-        linkedin: 'https://linkedin.com/in/rahul-dandona',
-        github: 'https://github.com/harshaldulera',
-        image: 'https://i.imgur.com/sbJZ6GN.jpeg',
-    }
+  {
+      name: 'Rahul Dandona',
+      designation: 'Web Developer',
+      linkedin: 'https://linkedin.com/in/rahul-dandona',
+      github: 'https://github.com/harshaldulera',
+      image: 'https://i.imgur.com/sbJZ6GN.jpeg',
+  },
+  {
+      name: 'Rahul Hello',
+      designation: 'Web Developer',
+      linkedin: 'https://linkedin.com/in/rahul-dandona',
+      github: 'https://github.com/harshaldulera',
+      image: 'https://i.imgur.com/sbJZ6GN.jpeg',
+  },
+  {
+      name: 'Rahul 2',
+      designation: 'Web Developer',
+      linkedin: 'https://linkedin.com/in/rahul-dandona',
+      github: 'https://github.com/harshaldulera',
+      image: 'https://i.imgur.com/sbJZ6GN.jpeg',
+  },  
+  {
+      name: 'Rahul 3',
+      designation: 'Web Developer',
+      linkedin: 'https://linkedin.com/in/rahul-dandona',
+      github: 'https://github.com/harshaldulera',
+      image: 'https://i.imgur.com/sbJZ6GN.jpeg',
+  },
+  {
+      name: 'Rahul 4',
+      designation: 'Web Developer',
+      linkedin: 'https://linkedin.com/in/rahul-dandona',
+      github: 'https://github.com/harshaldulera',
+      image: 'https://i.imgur.com/sbJZ6GN.jpeg',
+  },
+  {
+      name: 'Rahul 5',
+      designation: 'Web Developer',
+      linkedin: 'https://linkedin.com/in/rahul-dandona',
+      github: 'https://github.com/harshaldulera',
+      image: 'https://i.imgur.com/sbJZ6GN.jpeg',
+  },
+  {
+      name: 'Rahul 6',
+      designation: 'Web Developer',
+      linkedin: 'https://linkedin.com/in/rahul-dandona',
+      github: 'https://github.com/harshaldulera',
+      image: 'https://i.imgur.com/sbJZ6GN.jpeg',
+  }
 ];
 
 const MeetTheTeam = () => {
-    const settings = {
-      dots: false,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 5,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 4,
-          },
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
         },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 3,
-          },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
         },
-        {
-          breakpoint: 576,
-          settings: {
-            slidesToShow: 2,
-          },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 2,
         },
-      ],
-    };
-  
-    return (
+      },
+    ],
+  };
+
+  return (
+    <div className="meet-the-team-container">
+      <div className="title-team">
+        <div>
+          <h1>Meet the Team</h1>
+        </div>
+      </div>
+
       <div className="team-carousel">
         <Slider {...settings}>
           {teamMembers.map((member, index) => (
@@ -108,8 +115,8 @@ const MeetTheTeam = () => {
           ))}
         </Slider>
       </div>
-    );
-  };
-  
-  export default MeetTheTeam;
-  
+    </div>
+  );
+};
+
+export default MeetTheTeam;

@@ -1,23 +1,24 @@
-/* MeetTheTeam.css */
 
-/* Container for the entire Meet the Team section */
 .meet-the-team-container 
 {
   width: 100%;
   overflow: hidden;
-  background-color: #fff; /* Add a white background */
+  background-color: #fff; 
   padding: 50px 0;
 }
 
 /* Title styling */
-.title-team {
+.title-team 
+{
   display: flex;
   width: 100%;
   justify-content: center;
-  margin-top: 50px; /* Adjust the top margin as needed */
+  margin-top: 50px; 
+  margin-bottom: 50px;
 }
 
-.title-team > div > h1::after {
+.title-team > div > h1::after 
+{
   content: '';
   height: 4px;
   background-color: #8A0000;
@@ -27,21 +28,9 @@
   margin-top: 10px;
 }
 
-/* Team carousel styling */
-/* .team-carousel {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1200px; Adjust the maximum width as needed
-  overflow: hidden;
-  position: relative; /* Relative positioning for arrow buttons */
-  background-color: #fff; /* Add a white background */
-  border-radius: 10px; /* Add a subtle border-radius */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
-  padding: 20px; /* Add some padding to create space from the edges */
-} */
-
 .slick-prev,
-.slick-next {
+.slick-next 
+{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -52,62 +41,66 @@
   padding: 10px;
   border-radius: 50%;
   transition: background-color 0.3s ease;
-  color: #8A0000; /* Change arrow color */
+  color: #8A0000;
 }
 
-.slick-prev {
+.slick-prev 
+{
   left: 0;
 }
 
-.slick-next {
+.slick-next 
+{
   right: 0;
 }
 
 .slick-next::before,
-.slick-prev::before {
+.slick-prev::before 
+{
   color: #8A0000;
 }
 
 .slick-prev:hover,
-.slick-next:hover {
+.slick-next:hover 
+{
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-/* Team member card styling */
-.team-member {
-  text-align: center;
-  padding: 10px;
-  margin: 0 5px;
+
+.team-member 
+{
+  border: 1px solid black;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #fff; /* Add a white background to each member card */
-  border-radius: 10px; /* Add a subtle border-radius */
-  margin-bottom: 20px; /* Add margin between member cards */
 }
 
-.team-member img {
+.team-member img 
+{
   width: 150px;
   height: 150px;
-  object-fit: cover;
+  margin-left: 25%;
   border-radius: 50%;
   border: 2px solid #fff;
-  margin-left: 15%;
 }
 
-.team-member h4 {
-  margin: 10px 0;
+.team-member h4 
+{
   font-size: 1.2rem;
+  margin: 0;
+  margin: 10px;
 }
 
-.team-member-socials {
+.team-member-socials 
+{
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
 
-.team-member-socials a {
+.team-member-socials a 
+{
   margin: 0 10px;
   color: #333;
   font-size: 24px;
@@ -115,24 +108,30 @@
   transition: color 0.3s ease;
 }
 
-.team-member-socials a:hover {
-  color: #8A0000; /* Change social media icon color */
+.team-member-socials a:hover 
+{
+  color: #8A0000;
 }
 
 .designation {
   margin: 5px 0;
   font-size: 1rem;
-  color: #8A0000; /* Change designation color */
+  color: #8A0000;
 }
 
+
+
+
 @media (max-width: 768px) {
-  .team-member img {
+  .team-member img 
+  {
     width: 100px;
     height: 100px;
-    margin-left: 0;
+    margin-left: 25%;
   }
 
-  .team-member h4 {
+  .team-member h4 
+  {
     font-size: 1rem;
   }
 }

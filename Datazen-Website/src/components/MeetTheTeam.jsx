@@ -89,9 +89,7 @@ const MeetTheTeam = () => {
   return (
     <div className="meet-the-team-container" id="team">
       <div className="title-team">
-        <div>
           <h1>Meet the Team</h1>
-        </div>
       </div>
 
       <div className="team-carousel">

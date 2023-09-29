@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/Event.css';
 import EventSection from './EventSection';
+import jsonEvent from './Events.json';
 
 
 

@@ -14,7 +14,7 @@
   display: flex;
   width: 100%;
   justify-content: center;
-  margin-top: 30px; /* Adjust the top margin as needed */
+  margin-top: 50px; /* Adjust the top margin as needed */
 }
 
 .title-team > div > h1::after {
@@ -28,17 +28,17 @@
 }
 
 /* Team carousel styling */
-.team-carousel {
+/* .team-carousel {
   margin: 0 auto;
   width: 100%;
-  max-width: 1200px; /* Adjust the maximum width as needed */
+  max-width: 1200px; Adjust the maximum width as needed
   overflow: hidden;
   position: relative; /* Relative positioning for arrow buttons */
   background-color: #fff; /* Add a white background */
   border-radius: 10px; /* Add a subtle border-radius */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
   padding: 20px; /* Add some padding to create space from the edges */
-}
+} */
 
 .slick-prev,
 .slick-next {

@@ -125,7 +125,26 @@ h1::after
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
+}
+
+.register
+{
+  margin-top: 15px;
+  align-self: center;
+  border: 2px solid #8A0000;
+  text-decoration: none;
+  padding: 15px;
+  width: 20%;
+  font-size: 21px;
+  color: #8A0000;
+}
+
+.register:hover
+{
+  background-color: #8A0000;
+  color: white;
+  transition: 0.5s;
 }
 
 @media (max-width: 1255px) {

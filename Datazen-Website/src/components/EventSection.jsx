@@ -21,8 +21,10 @@ function EventSection({isLeft,title,content,linker,imageLink})
                 <div className='event-content'>
                 <p>{content}</p>
                 </div>
+
                 
-                {linker && <Link to={linker}>Register</Link>}
+                
+                {linker && <Link to={linker} className='register'>Register</Link>}
             </div>
             </div>
         

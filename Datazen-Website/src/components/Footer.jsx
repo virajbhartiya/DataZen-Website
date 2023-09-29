@@ -19,6 +19,7 @@ function Footer() {
           <FaYoutube size={24} />
         </a>
       </div>
+      <div className='love-by-CodeCell'>Made with ❤️ by KJSCE CodeCell</div>
     </div>
   );
 }

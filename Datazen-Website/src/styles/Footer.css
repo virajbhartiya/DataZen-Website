@@ -28,3 +28,17 @@
     color: red; 
   }
   
+  .love-by-CodeCell
+  {
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+  }
+
+  @media (max-width:800px) 
+  {
+    .social-icons
+    {
+      justify-content: center;
+    }
+  }

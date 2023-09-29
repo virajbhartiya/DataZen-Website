@@ -6,7 +6,7 @@ import '../styles/Team.css'
 function TeamSection({name,desigination,imgurl,linkedlink,githublink}) 
 {
   return (
-    <div className='team-container'>
+    <div className='team-container' id=''>
         <div className='teammate-card'>
                 <img src={imgurl} alt={name}  className='teammate-img'/>
                 <h2 className='teammate-name'>{name}</h2>

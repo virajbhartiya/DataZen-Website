@@ -37,9 +37,9 @@ function Navbar()
       </div>
       <div className="navbar-center">
         <a className='nav_link'>Home</a>
-        <a>About</a>
-        <a >Events</a>
-        <a >Team</a>
+        <a href='#about'>About</a>
+        <a href='#event'>Events</a>
+        <a href='#team'>Team</a>
       </div> 
       <div className='logo'>
 
@@ -60,9 +60,9 @@ function Navbar()
 
         <div className='dropdown'>
         <h3>Home</h3>
-        <h3>About</h3>
-        <h3>Events</h3>
-        <h3 className='dropteam'>Team</h3>
+        <a href='#about'><h3>About</h3></a>
+        <a href='#event'><h3>Events</h3></a>
+        <a href='#team'><h3>Team </h3></a>
         </div>
            
           )}

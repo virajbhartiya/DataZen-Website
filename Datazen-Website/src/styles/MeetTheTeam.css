@@ -1,11 +1,12 @@
 /* MeetTheTeam.css */
 
 /* Container for the entire Meet the Team section */
-.meet-the-team-container {
+.meet-the-team-container 
+{
   width: 100%;
   overflow: hidden;
   background-color: #fff; /* Add a white background */
-  padding: 50px 0; /* Add padding to create space from the top */
+  padding: 50px 0;
 }
 
 /* Title styling */
@@ -83,7 +84,6 @@
   text-align: center;
   background-color: #fff; /* Add a white background to each member card */
   border-radius: 10px; /* Add a subtle border-radius */
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
   margin-bottom: 20px; /* Add margin between member cards */
 }
 

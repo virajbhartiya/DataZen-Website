@@ -194,6 +194,12 @@
     font-weight: bold;
     color: #444;
     position: relative;
+    text-decoration: none;
+  }
+
+  .dropdown a 
+  {
+    text-decoration: none;
   }
   
   

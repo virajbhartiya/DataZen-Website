@@ -5,7 +5,7 @@ import img from '../imgs/7_days.jpg'
 function About() {
   return (
     <>
-    <div className='box'>
+    <div className='box' id='about'>
 
    
     <div className='about-box'>

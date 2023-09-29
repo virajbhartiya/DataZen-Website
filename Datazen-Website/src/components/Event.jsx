@@ -68,7 +68,7 @@ function Event() {
 
   return (
     <>
-      <div className='whole-event-container'>
+      <div className='whole-event-container' id='event'>
       <div className='title'>
         <div>
           <h1>Events</h1>

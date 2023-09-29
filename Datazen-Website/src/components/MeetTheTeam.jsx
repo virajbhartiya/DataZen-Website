@@ -5,56 +5,80 @@ import "slick-carousel/slick/slick-theme.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "../styles/MeetTheTeam.css";
 
+/*
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{
+  name: 'Rahul Hello',
+  designation: 'Web Developer',
+  linkedin: 'https://linkedin.com/in/rahul-dandona',
+  github: 'https://github.com/rahul-dondona',
+  image: 'https://www.clipartmax.com/png/small/34-340027_user-login-man-human-body-mobile-person-comments-person-icon-png.png',
+
+},
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+*/
+
 const teamMembers = [
   {
-      name: 'Rahul Dandona',
-      designation: 'Web Developer',
-      linkedin: 'https://linkedin.com/in/rahul-dandona',
-      github: 'https://github.com/harshaldulera',
-      image: 'https://i.imgur.com/sbJZ6GN.jpeg',
+    name: 'Rahul Hello',
+    designation: 'Web Developer',
+    linkedin: 'https://linkedin.com/in/rahul-dandona',
+    github: 'https://github.com/rahul-dondona',
+    image: 'https://www.clipartmax.com/png/small/34-340027_user-login-man-human-body-mobile-person-comments-person-icon-png.png',
+  
   },
   {
-      name: 'Rahul Hello',
-      designation: 'Web Developer',
-      linkedin: 'https://linkedin.com/in/rahul-dandona',
-      github: 'https://github.com/harshaldulera',
-      image: 'https://i.imgur.com/sbJZ6GN.jpeg',
+    name: 'Rahul Hello',
+    designation: 'Web Developer',
+    linkedin: 'https://linkedin.com/in/rahul-dandona',
+    github: 'https://github.com/rahul-dondona',
+    image: 'https://www.clipartmax.com/png/small/34-340027_user-login-man-human-body-mobile-person-comments-person-icon-png.png',
+  
+  },{
+    name: 'Rahul Hello',
+    designation: 'Web Developer',
+    linkedin: 'https://linkedin.com/in/rahul-dandona',
+    github: 'https://github.com/rahul-dondona',
+    image: 'https://www.clipartmax.com/png/small/34-340027_user-login-man-human-body-mobile-person-comments-person-icon-png.png',
+  
+  },{
+    name: 'Rahul Hello',
+    designation: 'Web Developer',
+    linkedin: 'https://linkedin.com/in/rahul-dandona',
+    github: 'https://github.com/rahul-dondona',
+    image: 'https://www.clipartmax.com/png/small/34-340027_user-login-man-human-body-mobile-person-comments-person-icon-png.png',
+  
+  },{
+    name: 'Rahul Hello',
+    designation: 'Web Developer',
+    linkedin: 'https://linkedin.com/in/rahul-dandona',
+    github: 'https://github.com/rahul-dondona',
+    image: 'https://www.clipartmax.com/png/small/34-340027_user-login-man-human-body-mobile-person-comments-person-icon-png.png',
+  
+  },{
+    name: 'Rahul Hello',
+    designation: 'Web Developer',
+    linkedin: 'https://linkedin.com/in/rahul-dandona',
+    github: 'https://github.com/rahul-dondona',
+    image: 'https://www.clipartmax.com/png/small/34-340027_user-login-man-human-body-mobile-person-comments-person-icon-png.png',
+  
+  },{
+    name: 'Rahul Hello',
+    designation: 'Web Developer',
+    linkedin: 'https://linkedin.com/in/rahul-dandona',
+    github: 'https://github.com/rahul-dondona',
+    image: 'https://www.clipartmax.com/png/small/34-340027_user-login-man-human-body-mobile-person-comments-person-icon-png.png',
+  
   },
-  {
-      name: 'Rahul 2',
-      designation: 'Web Developer',
-      linkedin: 'https://linkedin.com/in/rahul-dandona',
-      github: 'https://github.com/harshaldulera',
-      image: 'https://i.imgur.com/sbJZ6GN.jpeg',
-  },  
-  {
-      name: 'Rahul 3',
-      designation: 'Web Developer',
-      linkedin: 'https://linkedin.com/in/rahul-dandona',
-      github: 'https://github.com/harshaldulera',
-      image: 'https://i.imgur.com/sbJZ6GN.jpeg',
-  },
-  {
-      name: 'Rahul 4',
-      designation: 'Web Developer',
-      linkedin: 'https://linkedin.com/in/rahul-dandona',
-      github: 'https://github.com/harshaldulera',
-      image: 'https://i.imgur.com/sbJZ6GN.jpeg',
-  },
-  {
-      name: 'Rahul 5',
-      designation: 'Web Developer',
-      linkedin: 'https://linkedin.com/in/rahul-dandona',
-      github: 'https://github.com/harshaldulera',
-      image: 'https://i.imgur.com/sbJZ6GN.jpeg',
-  },
-  {
-      name: 'Rahul 6',
-      designation: 'Web Developer',
-      linkedin: 'https://linkedin.com/in/rahul-dandona',
-      github: 'https://github.com/harshaldulera',
-      image: 'https://i.imgur.com/sbJZ6GN.jpeg',
-  }
+  
+
 ];
 
 const MeetTheTeam = () => {

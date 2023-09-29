@@ -62,6 +62,11 @@
   right: 0;
 }
 
+.slick-next::before,
+.slick-prev::before {
+  color: #8A0000;
+}
+
 .slick-prev:hover,
 .slick-next:hover {
   background-color: rgba(255, 255, 255, 0.9);

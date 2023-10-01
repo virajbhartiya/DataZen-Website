@@ -12,6 +12,7 @@ function Navbar()
   const toggleDropdown = ()=>{
 
     setisDropdownOpen(!isDropdownOpen);
+    
   };
   
 
@@ -33,8 +34,12 @@ function Navbar()
 </svg>
 
       </button>
+
+     
         
       </div>
+
+
       <div className="navbar-center">
         <a className='nav_link'>Home</a>
         <a href='#about'>About</a>

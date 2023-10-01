@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "../styles/MeetTheTeam.css";
-import arrow from '../imgs/PngItem_1394986.png'
 
 /*
 
@@ -89,45 +88,28 @@ const MeetTheTeam = () => {
     speed: 500,
     slidesToShow: 5,
     slidesToScroll: 5,
-    autoplay: true,
-    autoplaySpeed: 4000,
-    cssEase: "linear",
-    rtl: true,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 4,
-          slidesToScroll: 4,
         },
       },
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
         },
       },
       {
         breakpoint: 576,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
         },
       },
     ],
-
-    prevArrow: (
-      <button className="slick-prev" aria-label="Previous" type="button">
-       
-      </button>
-    ),
-    nextArrow: (
-      <button className="slick-next" aria-label="Next" type="button">
-      </button>
-    ),
   };
-  
+
   return (
     <div className="meet-the-team-container" id="team">
       <div className="title-team">
@@ -135,11 +117,8 @@ const MeetTheTeam = () => {
       </div>
 
       <div className="team-carousel">
-
         <Slider {...settings}>
-
           {teamMembers.map((member, index) => (
-
             <div key={index} className="team-member">
               <div className="member-image">
                 <img src={member.image} alt="Team Member" />
@@ -155,7 +134,6 @@ const MeetTheTeam = () => {
                 </a>
               </div>
             </div>
-
           ))}
         </Slider>
       </div>

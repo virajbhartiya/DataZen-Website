@@ -14,7 +14,7 @@ function Hero()
       </div> 
         
         <div className='layer-1'>
-        <svg width="723" height="542" viewBox="0 0 803 602" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="723" height="542" viewBox="0 0 803 602" fill="none" xmlns="http://www.w3.org/2000/svg" className='layer-mobile'>
         <path d="M-13 0L803 602H-13V0Z" fill="url(#paint0_linear_356_54)"/>
         <path d="M-69 268.764V134L715 602H-69V268.764Z" fill="url(#paint1_linear_356_54)"/>
         <path d="M-117 279L617.801 602H-117V279Z" fill="#A50C22"/>

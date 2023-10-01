@@ -7,7 +7,7 @@
   padding: 50px 0;
 }
 
-/* Title styling */
+
 .title-team 
 {
   display: flex;
@@ -37,11 +37,12 @@
   z-index: 1;
   font-size: 24px;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
   border-radius: 50%;
-  transition: background-color 0.3s ease;
+  background-color: transparent;
+  transition: 0.3s ease;
   color: #8A0000;
+  margin-right: 20px;
 }
 
 .slick-prev 
@@ -63,7 +64,7 @@
 .slick-prev:hover,
 .slick-next:hover 
 {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: transparent;
 }
 
 
@@ -113,7 +114,8 @@
   color: #8A0000;
 }
 
-.designation {
+.designation 
+{
   margin: 5px 0;
   font-size: 1rem;
   color: #8A0000;
@@ -134,4 +136,14 @@
   {
     font-size: 1rem;
   }
+
+  
+  .slick-next::before,.slick-prev::before 
+  {
+    color: transparent;
+  }
+
+  
 }
+
+

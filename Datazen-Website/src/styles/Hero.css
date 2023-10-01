@@ -31,7 +31,7 @@
     bottom: 0;
     left: 0;
     margin: 0;
-    z-index: 1;
+    z-index: 3;
     overflow: hidden;
     
 }
@@ -69,8 +69,30 @@
         
     }
 
-    .layer-1,.layer-2,.layer-3
+    .layer-2,.layer-3
     {
         display: none;
     }
+
+    .layer-1
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        z-index: -1;
+        overflow: hidden;
+    }
+
+    
 }
+
+@media (max-width: 560px) 
+{
+    .layer-1
+    {
+        bottom: -50px;
+    }
+}
+
+

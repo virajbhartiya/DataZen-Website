@@ -1,88 +1,22 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "../styles/MeetTheTeam.css";
-import arrow from '../imgs/PngItem_1394986.png'
+import teamData from "../Data/teamData.json"; 
 
-/*
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+const MeetTheTeam = () => 
 {
-  name: 'Rahul Hello',
-  designation: 'Web Developer',
-  linkedin: 'https://linkedin.com/in/rahul-dandona',
-  github: 'https://github.com/rahul-dondona',
-  image: 'https://www.clipartmax.com/png/small/34-340027_user-login-man-human-body-mobile-person-comments-person-icon-png.png',
+  const [teamMembers, setTeamMembers] = useState([]);
 
-},
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
-*/
-
-const teamMembers = [
+  useEffect(() => 
   {
-    name: 'Rahul Hello',
-    designation: 'Web Developer',
-    linkedin: 'https://linkedin.com/in/rahul-dandona',
-    github: 'https://github.com/rahul-dondona',
-    image: 'https://www.clipartmax.com/png/small/34-340027_user-login-man-human-body-mobile-person-comments-person-icon-png.png',
-  
-  },
-  {
-    name: 'Rahul Hello',
-    designation: 'Web Developer',
-    linkedin: 'https://linkedin.com/in/rahul-dandona',
-    github: 'https://github.com/rahul-dondona',
-    image: 'https://www.clipartmax.com/png/small/34-340027_user-login-man-human-body-mobile-person-comments-person-icon-png.png',
-  
-  },{
-    name: 'Rahul Hello',
-    designation: 'Web Developer',
-    linkedin: 'https://linkedin.com/in/rahul-dandona',
-    github: 'https://github.com/rahul-dondona',
-    image: 'https://www.clipartmax.com/png/small/34-340027_user-login-man-human-body-mobile-person-comments-person-icon-png.png',
-  
-  },{
-    name: 'Rahul Hello',
-    designation: 'Web Developer',
-    linkedin: 'https://linkedin.com/in/rahul-dandona',
-    github: 'https://github.com/rahul-dondona',
-    image: 'https://www.clipartmax.com/png/small/34-340027_user-login-man-human-body-mobile-person-comments-person-icon-png.png',
-  
-  },{
-    name: 'Rahul Hello',
-    designation: 'Web Developer',
-    linkedin: 'https://linkedin.com/in/rahul-dandona',
-    github: 'https://github.com/rahul-dondona',
-    image: 'https://www.clipartmax.com/png/small/34-340027_user-login-man-human-body-mobile-person-comments-person-icon-png.png',
-  
-  },{
-    name: 'Rahul Hello',
-    designation: 'Web Developer',
-    linkedin: 'https://linkedin.com/in/rahul-dandona',
-    github: 'https://github.com/rahul-dondona',
-    image: 'https://www.clipartmax.com/png/small/34-340027_user-login-man-human-body-mobile-person-comments-person-icon-png.png',
-  
-  },{
-    name: 'Rahul Hello',
-    designation: 'Web Developer',
-    linkedin: 'https://linkedin.com/in/rahul-dandona',
-    github: 'https://github.com/rahul-dondona',
-    image: 'https://www.clipartmax.com/png/small/34-340027_user-login-man-human-body-mobile-person-comments-person-icon-png.png',
-  
-  },
-  
+    setTeamMembers(teamData);
+  }, 
+  []
+  );
 
-];
-
-const MeetTheTeam = () => {
   const settings = {
     dots: false,
     infinite: true,
@@ -92,7 +26,6 @@ const MeetTheTeam = () => {
     autoplay: true,
     autoplaySpeed: 4000,
     cssEase: "linear",
-    rtl: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -119,7 +52,6 @@ const MeetTheTeam = () => {
 
     prevArrow: (
       <button className="slick-prev" aria-label="Previous" type="button">
-       
       </button>
     ),
     nextArrow: (
@@ -135,11 +67,8 @@ const MeetTheTeam = () => {
       </div>
 
       <div className="team-carousel">
-
         <Slider {...settings}>
-
           {teamMembers.map((member, index) => (
-
             <div key={index} className="team-member">
               <div className="member-image">
                 <img src={member.image} alt="Team Member" />
@@ -155,7 +84,6 @@ const MeetTheTeam = () => {
                 </a>
               </div>
             </div>
-
           ))}
         </Slider>
       </div>

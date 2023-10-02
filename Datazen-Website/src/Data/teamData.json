@@ -1,0 +1,53 @@
+[
+    {
+      "name": "Rahul Hello",
+      "designation": "Head",
+      "linkedin": "https://linkedin.com/in/rahul-dandona",
+      "github": "https://github.com/rahul-dondona",
+      "image": "https://www.clipartmax.com/png/small/34-340027_user-login-man-human-body-mobile-person-comments-person-icon-png.png"
+    },
+    {
+      "name": "Ishita Bhatia",
+      "designation": "PR Head",
+      "linkedin": "https://linkedin.com/in/john-doe",
+      "github": "https://github.com/john-doe",
+      "image": "https://example.com/johndoe.png"
+    },
+    {
+      "name": "Jane Smith",
+      "designation": "Front-end Developer",
+      "linkedin": "https://linkedin.com/in/jane-smith",
+      "github": "https://github.com/jane-smith",
+      "image": "https://example.com/janesmith.png"
+    },
+    {
+      "name": "Nidhi Poojary",
+      "designation": "Creative Head",
+      "linkedin": "https://linkedin.com/in/alice-johnson",
+      "github": "https://github.com/alice-johnson",
+      "image": "https://example.com/alicejohnson.png"
+    }
+    ,
+    {
+      "name": "Siddharth Singh",
+      "designation": "Marketing Head",
+      "linkedin": "https://linkedin.com/in/alice-johnson",
+      "github": "https://github.com/alice-johnson",
+      "image": "https://example.com/alicejohnson.png"
+    },
+    {
+      "name": "Vedant Hire",
+      "designation": "Tech Head",
+      "linkedin": "https://linkedin.com/in/alice-johnson",
+      "github": "https://github.com/alice-johnson",
+      "image": "https://example.com/alicejohnson.png"
+    },
+    {
+      "name": "Riya Thapar",
+      "designation": "Events Head",
+      "linkedin": "https://linkedin.com/in/alice-johnson",
+      "github": "https://github.com/alice-johnson",
+      "image": "https://example.com/alicejohnson.png"
+    }
+  ]
+  

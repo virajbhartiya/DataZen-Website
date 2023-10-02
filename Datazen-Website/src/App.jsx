@@ -5,6 +5,7 @@ import Mainpage from './pages/Main';
 import Navbar from './components/Navbar'
 import MeetTheTeam from './components/MeetTheTeam';
 import Footer from './components/Footer';
+import Navbar2 from './components/Navbar2';
 
 
 
@@ -14,7 +15,8 @@ function App()
 
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/> */}
+    <Navbar2/>
    
       <Routes>
           <Route path='/' element={<Mainpage />} />

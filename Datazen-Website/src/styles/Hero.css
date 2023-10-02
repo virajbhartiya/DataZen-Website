@@ -7,6 +7,9 @@
     width: 100%;
     position: relative;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 90vh;
 }
 
 @media (min-width:900px) {
@@ -14,6 +17,7 @@
 .design-box
 {
     margin: 0;
+    padding: 0;
 }
 .Datazen_logo
 {
@@ -28,9 +32,10 @@
 .layer-1
 {
     position: absolute;
-    bottom: 0;
+    bottom: -50px;
     left: 0;
     margin: 0;
+    padding: 0;
     z-index: 3;
     overflow: hidden;
     
@@ -38,16 +43,18 @@
 .layer-2
 {
     position: absolute;
-    bottom: 0;
+    bottom: -50px;
     left: 0;
     margin: 0;
     z-index: 0;
+    padding: 0;
     overflow: hidden;
 }
 .layer-3
 {
+    padding: 0;
     position: absolute;
-    bottom: 0;
+    bottom: -50px;
     right: 0;
     margin: 0;
     z-index: -1;
@@ -77,21 +84,35 @@
     .layer-1
     {
         position: absolute;
-        bottom: 0;
+        bottom: -50px;
         left: 0;
         margin: 0;
-        z-index: -1;
+        z-index: 5;
         overflow: hidden;
     }
 
     
 }
 
-@media (max-width: 560px) 
+@media (max-width: 620px) 
 {
     .layer-1
     {
-        bottom: -50px;
+        bottom: -100px;
+    }
+}
+@media (max-width:400px) {
+    .layer-1
+    {
+        bottom: -150px;
+    }
+}
+
+@media (max-width:320px) 
+{
+    .layer-1
+    {
+        bottom: -190px;
     }
 }
 

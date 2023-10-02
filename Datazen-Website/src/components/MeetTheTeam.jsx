@@ -18,17 +18,16 @@ const MeetTheTeam = () =>
   );
 
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 5,
     slidesToScroll: 2,
-    autoplay: true,
-    autoplaySpeed: 4000,
     cssEase: "linear",
     lazyLoad: "progressive",
-    edgeFriction: 0.15,
+    edgeFriction: 5,
     waitForAnimate:true,
+
     responsive: [
       {
         breakpoint: 1024,

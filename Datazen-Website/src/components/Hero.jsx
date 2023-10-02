@@ -7,7 +7,7 @@ function Hero()
 {
   return (
     <>
-      <div className='container'>
+      <div className='container' id='home'>
         
        <div>
       <img src={DataZen_Logo} alt="" srcset="" className='Datazen_logo'/>

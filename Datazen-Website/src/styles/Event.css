@@ -90,6 +90,7 @@ h1::after
   font-weight: 700;
   line-height: normal;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .event-content

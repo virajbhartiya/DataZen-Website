@@ -35,7 +35,12 @@ function Navbar2() {
   return (
     <div className='navbar-container'>
       <div className='navbar-space'></div>
-
+                  <div class="hamburger hamburger--elastic" tabindex="0"
+                aria-label="Menu" role="button" aria-controls="navigation">
+              <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+              </div>
+            </div>
       <div className="navbar-side" onClick={toggleDropdown}>
         <button>
           <svg width="23" height="14" viewBox="0 0 23 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,7 +54,7 @@ function Navbar2() {
       {(windowWidth > 1060 || !isDropdownOpen) && 
       (
         <div className='navbar-title'>
-          <h4 className='navbar-home'> <a href="#home">Home</a> </h4>
+          <h4 className='navbar-home'> <a href="#home" onClick={toggleDropdown}>Home</a> </h4>
           <h4 className='navbar-about'> <a href="#about">About</a> </h4>
           <h4 className='navbar-event'> <a href="#event">Events</a> </h4>
           <h4 className='navbar-team'> <a href="#team">Team</a> </h4>

@@ -26,11 +26,11 @@ h1
 h1::after
 {
     content: '';
-    height: 4px;
+    height: 6px;
     background-color: #8A0000;
     width: 100%;
     display: block;
-    border-radius: 2px;
+    border-radius: 3px;
     margin-top: 10px;
 }
 
@@ -39,7 +39,7 @@ h1::after
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 70px;
+    margin-top: 100px;
 
 }
 

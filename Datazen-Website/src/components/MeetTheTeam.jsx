@@ -22,10 +22,13 @@ const MeetTheTeam = () =>
     infinite: true,
     speed: 500,
     slidesToShow: 5,
-    slidesToScroll: 5,
+    slidesToScroll: 2,
     autoplay: true,
     autoplaySpeed: 4000,
     cssEase: "linear",
+    lazyLoad: "progressive",
+    edgeFriction: 0.15,
+    waitForAnimate:true,
     responsive: [
       {
         breakpoint: 1024,

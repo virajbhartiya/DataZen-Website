@@ -16,6 +16,25 @@
 {
     width: 30%;
 }
+.navbar-hamburger
+{
+  height: 75px;
+}
+
+.cross
+{
+  transform: scale(1.5);
+}
+
+.cross,
+.hamburger-menu {
+  transition: transform 0.3s ease;
+}
+
+
+
+
+
 .navbar-title
 {
     display: flex;
@@ -68,8 +87,19 @@ a
     
 }
 
+
 @media (max-width:1060px)
 {
+
+
+  
+.hamburger-menu.open,
+.cross.open 
+{
+  transform: rotate(180deg);
+}
+
+
     .navbar-container
     {
         width: 100%;
@@ -166,18 +196,30 @@ a
         animation: fadeOut 0.5s ease forwards;
       }
 
-
+      body.no-scroll 
+      {
+        overflow: hidden;
+      }
+      
     
 }
 
 @media (max-width:768px) 
 {
+  
     .navbar-image
     {
         width: 43%;
         margin: 5px;
         padding: 0;
         order: 2;
+    }
+
+    .navbar-title
+    {
+      gap: 60px;
+      justify-content: center;
+      height: 90vh;
     }
 }
 

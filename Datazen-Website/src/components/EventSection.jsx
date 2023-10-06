@@ -7,7 +7,7 @@ function EventSection({isLeft,title,content,linker,imageLink})
 {
     
   return (
-    <div>
+    <div className='event-section-container'>
        <b><h3 className='event-title'>{title}</h3></b>
          <div className={`${!isLeft? 'right' : 'left'}`}  >
             <div className='event-image'>

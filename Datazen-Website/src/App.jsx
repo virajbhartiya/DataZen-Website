@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import MeetTheTeam from './components/MeetTheTeam';
 import Footer from './components/Footer';
 import Navbar2 from './components/Navbar2';
+import Footer2 from './components/Footer2';
 
 
 
@@ -23,6 +24,7 @@ function App()
       </Routes>
 
     <Footer/>
+    {/* <Footer2/> */}
     
     </>
   )

@@ -59,6 +59,11 @@
     
 }
 
+.navbar-title >h4 :hover
+{
+  color: #8A0000;
+}
+
 a
 {
     text-decoration: none;

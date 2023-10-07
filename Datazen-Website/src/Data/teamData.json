@@ -1,58 +1,175 @@
 [
   {
+    "index":1 ,
     "name": "Rahul Dondona",
     "designation": "Head",
-    "linkedin": "https://linkedin.com/in/rahul-dandona",
-    "github": "https://github.com/rahul-dondona",
+    "linkedin": "https://www.linkedin.com/in/rahul-dandona",
+    "github": "https://github.com/dandonarahul2002",
     "image": "/imgs/Rahul_Dondona.png"
   },
   {
+    "index":2 ,
     "name": "Ishita Bhatia",
     "designation": "PR Head",
-    "linkedin": "https://linkedin.com/in/john-doe",
-    "github": "https://github.com/john-doe",
+    "linkedin": "https://www.linkedin.com/in/ishita-bhatia-4a72751b5/",
+    "github": "https://github.com/",
     "image": "/imgs/Ishita_Bhatia.png"
   },
   {
+    "index":3 ,
     "name": "Nidhi Poojary",
     "designation": "Creative Head",
-    "linkedin": "https://linkedin.com/in/alice-johnson",
-    "github": "https://github.com/alice-johnson",
+    "linkedin": "https://www.linkedin.com/in/nidhi-poojary-9a3201252/",
+    "github": "https://github.com/Nidy12",
     "image": "/imgs/Nidhi_Poojary.png"
   }
   ,
   {
+    "index":4,
     "name": "Siddharth Singh",
     "designation": "Marketing Head",
-    "linkedin": "https://linkedin.com/in/alice-johnson",
-    "github": "https://github.com/alice-johnson",
+    "linkedin": "https://www.linkedin.com/in/siddharth-singh-42b898202/",
+    "github": "https://github.com/sid1324",
     "image": "/imgs/Siddharth_Singh.png"
   },
   {
+    "index":5 ,
     "name": "Vedant Hire",
-    "designation": "Tech Head",
-    "linkedin": "https://linkedin.com/in/alice-johnson",
-    "github": "https://github.com/alice-johnson",
+    "designation": "Tech Team",
+    "linkedin": "https://www.linkedin.com/in/vedant-hire/",
+    "github": "https://github.com/vedanthire14",
     "image": "/imgs/Vedant_Hire.png"
   },
   {
+    "index":6 ,
     "name": "Riya Thapar",
     "designation": "Events Head",
-    "linkedin": "https://linkedin.com/in/alice-johnson",
-    "github": "https://github.com/alice-johnson",
+    "linkedin": "https://www.linkedin.com/in/riyathapar/",
+    "github": "https://github.com/RiyaThapar",
     "image": "/imgs/Riya_Thapar.png"
   },
   {
+    "index":7 ,
     "name": "Zaidali Merchant",
     "designation": "PR Team",
-    "linkedin": "https://linkedin.com/in/alice-johnson",
-    "github": "https://github.com/alice-johnson",
+    "linkedin": "https://www.linkedin.com/in/zaidali-merchant-047507224/",
+    "github": "https://github.com/zeusopera9",
     "image": "/imgs/Zaidali_Merchant.png"
   },{
+    "index":8 ,
     "name": "Harsh Nagrani",
-    "designation": "PR Team",
-    "linkedin": "https://linkedin.com/in/alice-johnson",
-    "github": "https://github.com/alice-johnson",
+    "designation": "Tech Team",
+    "linkedin": "https://www.linkedin.com/in/harsh-nagrani-1ab98623a/",
+    "github": "https://github.com/omghadia",
     "image": "/imgs/Harsh_Nagrani.png"
+  },
+  {
+    "index":9 ,
+    "name": "Hasya Abburi",
+    "designation": "Tech Team",
+    "linkedin": "https://www.linkedin.com/in/hasya-abburi-bb7853257",
+    "github": "https://github.com/ayoitshasyan",
+    "image": "/imgs/Hasya_Abburi.png"
+  },
+  {
+    "index":10 ,
+    "name": "Nandana Nair",
+    "designation": "Tech Team",
+    "linkedin": "https://www.linkedin.com/in/nandana-nair-9b852b240/",
+    "github": "https://github.com/nairnandana",
+    "image": "/imgs/Nandana_Nair.png"
+  },
+  {
+    "index":11 ,
+    "name": "Riya Shrivastav",
+    "designation": "Tech Team",
+    "linkedin": "https://www.linkedin.com/in/riya-shrivastava-8b5574252/",
+    "github": "https://github.com/riya-020",
+    "image": "/imgs/Riya_Shrivastava.png"
+  },
+  {
+    "index":12 ,
+    "name": "Mansi Manek",
+    "designation": "Tech Team",
+    "linkedin": "http://linkedin.com/in/mansi-manek-31913423b",
+    "github": "https://github.com/",
+    "image": "/imgs/Mansi_Manek.png"
+  },
+  {
+    "index":13 ,
+    "name": "Aadya Agarwal",
+    "designation": "Tech Team",
+    "linkedin": "https://www.linkedin.com/in/aadya-agarwal-21019a23b?trk=contact-info",
+    "github": "https://github.com/alice-johnson",
+    "image": "/imgs/Adaya_Agarwal.png"
+  },
+  {
+    "index":14 ,
+    "name": "Priyanshu_Mishra",
+    "designation": "Tech Team",
+    "linkedin": "http://www.linkedin.com/in/priyanshu-mishra-0234a2255",
+    "github": "https://github.com/",
+    "image": "/imgs/Priyanshu_Mishra.png"
+  },
+  {
+    "index":15 ,
+    "name": "Tejas Gourkhede",
+    "designation": "Tech Team",
+    "linkedin": "https://www.linkedin.com/in/tejas-gourkhede-522355247",
+    "github": "https://github.com/Tejas416-hub",
+    "image": "/imgs/Tejas_G.png"
+  },
+  {
+    "index":16 ,
+    "name": "Shlok Bura",
+    "designation": "Tech Team",
+    "linkedin": "https://www.linkedin.com/in/shlok-bhura774295248/",
+    "github": "https://github.com/shlokbhura",
+    "image": "/imgs/Shlok_Bura.png"
+  },
+  {
+    "index":17 ,
+    "name": "Aditya Ved",
+    "designation": "Tech Team",
+    "linkedin": "https://www.linkedin.com/in/aditya-ved-93b29026b/",
+    "github": "https://github.com/AdityaVed95",
+    "image": "/imgs/Aditya_Ved.png"
+  },
+  {
+    "index":18 ,
+    "name": "Om Ghadia",
+    "designation": "Tech Team",
+    "linkedin": "https://www.linkedin.com/in/om-ghadia-6009a6223/",
+    "github": "https://github.com/omghadia",
+    "image": "/imgs/Om_Ghadia.png"
+  },
+  {
+    "index":19 ,
+    "name": "Ojas Keer",
+    "designation": "Tech Team",
+    "linkedin": "https://www.linkedin.com/in/ojas-keer-3bb266244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    "github": "https://github.com/ojaskeer",
+    "image": "/imgs/Ojas_Keer.png"
+  },
+  {
+    "index":20 ,
+    "name": "Rajesh Rai",
+    "designation": "Tech Team",
+    "linkedin": "https://www.linkedin.com/in/iamrajeshrai/",
+    "github": "https://github.com/mbadatascience",
+    "image": "/imgs/Rajesh_Rai.png"
+  },
+  {
+    "index":21 ,
+    "name": "Atharva Desai",
+    "designation": "Tech Team",
+    "linkedin": "https://www.linkedin.com/in/atharva-desai-164138225/",
+    "github": "https://github.com/ATHARVA1202",
+    "image": "/imgs/Atharva_Desai.png"
   }
+
 ]
+
+
+
+

@@ -82,7 +82,8 @@ function Navbar2() {
         </button>
       </div>
 
-      {(windowWidth > 1060 || !isDropdownOpen) && (
+      {(windowWidth > 1060 || !isDropdownOpen) && 
+      (
         <div className={`navbar-title ${isDropdownOpen ? 'open' : ''}`}>
           <h4 className='navbar-home'> <a href="#home" onClick={toggleDropdown}>Home</a> </h4>
           <h4 className='navbar-about'> <a href="#about" onClick={toggleDropdown}>About</a> </h4>

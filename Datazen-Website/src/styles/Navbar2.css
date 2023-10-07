@@ -3,6 +3,8 @@
     height: 10vh;
     display: flex;
     width: 100%;
+    padding-top:1vh;
+    
 }
 .navbar-side
 {
@@ -18,7 +20,7 @@
 }
 .navbar-hamburger
 {
-  height: 75px;
+  height: 50px;
 }
 
 .cross
@@ -27,7 +29,8 @@
 }
 
 .cross,
-.hamburger-menu {
+.hamburger-menu 
+{
   transition: transform 0.3s ease;
 }
 
@@ -96,7 +99,13 @@ a
 @media (max-width:1060px)
 {
 
-
+.navbar-container
+{
+  background-color: white;
+  position: fixed;
+  z-index: 1500;
+  margin-bottom: 10vh;
+}
   
 .hamburger-menu.open,
 .cross.open 
@@ -224,7 +233,7 @@ a
     {
       gap: 60px;
       justify-content: center;
-      height: 90vh;
+      height: 89vh;
     }
 }
 

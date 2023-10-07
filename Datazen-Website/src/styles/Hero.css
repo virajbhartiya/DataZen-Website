@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
     height: 90vh;
+    padding-top: 10vh;
 }
 
 @media (min-width:900px) {

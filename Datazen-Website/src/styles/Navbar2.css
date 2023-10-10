@@ -58,7 +58,7 @@
     cursor: pointer;
     text-align: center;
     margin: 0;
-    margin-top: 30px;
+    margin-top: 45px;
     
 }
 
@@ -99,6 +99,17 @@ a
 @media (max-width:1060px)
 {
 
+  .navbar-container
+  {
+    
+      display: flex;
+      width: 100%;
+      
+      
+  }
+
+
+
 .navbar-container
 {
   background-color: white;
@@ -133,27 +144,29 @@ a
     .navbar-space
     {
         display: none;
-    }
-
-    .navbar-home,.navbar-about,.navbar-event,.navbar-team
-    {
-        margin: 1rem;
         
     }
-    .navbar-title {
+
+  .navbar-about,.navbar-event,.navbar-team
+    {
+        margin: 1rem;
+    }
+    .navbar-title 
+    {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
         flex-direction: column;
         width: 100%;
         margin: 0;
         padding: 0;
-        gap: 5px;
+        gap: 15px;
         order: 3;
         z-index: 10;
         background-color: white;
         opacity: 0;
         transform: translateY(-20px); 
         animation: fadeInUp 0.5s ease forwards;
-        transition: all 0.3s ease; 
+        transition: all 0.3s ease;
+        padding: 5px; 
         
       }
       
@@ -233,7 +246,7 @@ a
     {
       gap: 60px;
       justify-content: center;
-      height: 89vh;
+      height: 90vh;
     }
 }
 

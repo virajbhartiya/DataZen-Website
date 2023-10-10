@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Footer2.css';
 import { FaInstagram, FaTwitter, FaFacebook, FaYoutube } from 'react-icons/fa';
-import Logo from '/DataZen_Logo.png'
+import Logo from '../imgs/Datazen-White.png'
 
 function Footer2() {
   return (
@@ -9,9 +9,8 @@ function Footer2() {
     
       
 
-
-
-<img src={Logo} alt=""  fill='white'/>
+<div></div>
+<img src={Logo} alt=""  fill='white' className='footer-logo'/>
 
 
    
@@ -65,13 +64,14 @@ function Footer2() {
 
 </div>
 
+
+
+</div>
 <div className='love-by-CodeCell'> Made with ❤️ by KJSCE CodeCell 
     
     {/* (<a href="https://www.linkedin.com/in/minav-karia-b10aa2243/" className='link'>Minav Karia</a>  & <a href="" className='link'></a>Sharanya Chaudhuri) */}
     
     </div>
-
-</div>
 
     </div>
   );

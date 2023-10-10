@@ -10,12 +10,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     gap: 20px;
    
   
 }
   
+.footer-logo
+{
+  height: 200px;
+}
 
 
 .footer-content
@@ -43,7 +47,6 @@
   line-height: normal;
   text-decoration: none;
   color: #FFF;
-  padding: 20px;
 }
 
 .email
@@ -62,12 +65,11 @@
   line-height: normal;
   text-decoration: none;
   color: #FFF;
-  padding: 20px;
 }
 
 .footer-socials
 {
-    padding-top: 50px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,7 +88,6 @@
   text-decoration: none;
   color: #FFF;
   margin-top: 15px;
-  padding: 10px;
 }
 
 .footer-contact
@@ -108,32 +109,17 @@
   flex-direction: row;
 }
 
-@media (max-width:1000px) 
+
+@media (max-width: 500px) 
 {
-
-  .footer-socials
+  .footer-contact
   {
-    width: 100%;
-    margin-bottom: 15px;
-    order: -1;
-    border-bottom:1px solid white ;
-    margin-bottom: 15px;
-    padding-bottom: 15px ;
-    padding-top: 15px ;
+    font-size: medium;
   }
-
-  .footer-content
+  .love-by-CodeCell
   {
-    width: 100%;
-    
-   
-  }
-
-  .footer-container
-  {
-    flex-direction: column;
+    font-size: medium;
   }
 }
-
 
  

@@ -23,8 +23,8 @@ function App()
           <Route path='/' element={<Mainpage />} />
       </Routes>
 
-    <Footer/>
-    {/* <Footer2/> */}
+    {/* <Footer/> */}
+    <Footer2/>
     
     </>
   )

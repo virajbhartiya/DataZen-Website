@@ -1,56 +1,52 @@
+
+import { Link as ScrollLink } from 'react-scroll';
 import React, { useState, useEffect } from 'react';
 import '../styles/Navbar2.css';
 import SomaiyaLogo from '../imgs/Somaiya_logo.png';
 
 function Navbar2() {
-  const [isDropdownOpen, setisDropdownOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-  useEffect(() => {
-    const handleResize = () => {
+  useEffect(() => 
+  {
+    const handleResize = () => 
+    {
       setWindowWidth(window.innerWidth);
     };
 
     window.addEventListener('resize', handleResize);
 
-    return () => {
+    return () => 
+    {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
 
-  useEffect(() => {
-    setisDropdownOpen(windowWidth <= 1060);
+  useEffect(() => 
+  {
+    setIsDropdownOpen(windowWidth <= 1060);
   }, [windowWidth]);
 
-  const toggleDropdown = () => {
-    setisDropdownOpen(!isDropdownOpen);
-
-
-    if (!isDropdownOpen) 
+  const toggleDropdown = () => 
   {
-    document.body.classList.add('no-scroll');
-  } 
-  else
-   {
-    document.body.classList.remove('no-scroll');
-  }
+    setIsDropdownOpen(!isDropdownOpen);
+
+    if (isDropdownOpen==true) 
+    {
+      document.body.classList.add('no-scroll');
+    } 
+    else 
+    {
+      document.body.classList.remove('no-scroll');
+    }
   };
-
-  if (!isDropdownOpen) 
-  {
-    document.body.classList.add('no-scroll');
-  } 
-  else
-   {
-    document.body.classList.remove('no-scroll');
-  }
-
 
   return (
     <div className={`navbar-container ${isDropdownOpen ? 'fade-out' : ''}`}>
       <div className='navbar-space'></div>
       <div className="navbar-side" onClick={toggleDropdown}>
-        <button className='navbar-hamburger'>
+      <button className='navbar-hamburger'>
           {isDropdownOpen ? (
             <svg
               width="23"
@@ -82,13 +78,20 @@ function Navbar2() {
         </button>
       </div>
 
-      {(windowWidth > 1060 || !isDropdownOpen) && 
-      (
+      {(windowWidth > 1060 || !isDropdownOpen) && (
         <div className={`navbar-title ${isDropdownOpen ? 'open' : ''}`}>
-          <h4 className='navbar-home'> <a href="#home" onClick={toggleDropdown}>Home</a> </h4>
-          <h4 className='navbar-about'> <a href="#about" onClick={toggleDropdown}>About</a> </h4>
-          <h4 className='navbar-event'> <a href="#event" onClick={toggleDropdown}>Events</a> </h4>
-          <h4 className='navbar-team' onClick={toggleDropdown}> <a href="#team">Team</a> </h4>
+          <ScrollLink to="home" spy={true} smooth={true} duration={500} offset={-50} onClick={toggleDropdown} isDynamic={true} className='navbar-home'>
+            Home
+          </ScrollLink>
+          <ScrollLink to="about" spy={true} smooth={true} duration={500} offset={-50} onClick={toggleDropdown} className='h4'>
+            About
+          </ScrollLink>
+          <ScrollLink to="event" spy={true} smooth={true} duration={500} offset={-50} onClick={toggleDropdown}>
+            Events
+          </ScrollLink>
+          <ScrollLink to="team" spy={true} smooth={true} duration={500} offset={-50} onClick={toggleDropdown}>
+            Team
+          </ScrollLink>
         </div>
       )}
 
@@ -101,3 +104,5 @@ function Navbar2() {
 }
 
 export default Navbar2;
+
+

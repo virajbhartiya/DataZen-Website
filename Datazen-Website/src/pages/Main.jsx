@@ -4,8 +4,7 @@ import Hero from '../components/Hero.jsx'
 import About from '../components/About.jsx';
 import Event from '../components/Event.jsx';
 import MeetTheTeam from '../components/MeetTheTeam.jsx';
-import TeamSection from '../components/TeamSection.jsx';
-import Team from '../components/Team.jsx';
+
 
 function Mainpage() 
 {
@@ -15,8 +14,7 @@ function Mainpage()
     <About />
     <Event />
     <MeetTheTeam/>
-    {/* <TeamSection/> */}
-    {/* <Team/> */}
+  
 
   
     

@@ -100,25 +100,12 @@
     
 }
 
-@media (max-width: 620px) 
+
+@media (max-width:400px) 
 {
     .layer-1
     {
         bottom: -100px;
-    }
-}
-@media (max-width:400px) {
-    .layer-1
-    {
-        bottom: -150px;
-    }
-}
-
-@media (max-width:320px) 
-{
-    .layer-1
-    {
-        bottom: -190px;
     }
 }
 
@@ -127,6 +114,6 @@
 {
     .layer-1,.layer-2,.layer-3
     {
-        bottom: -190px;
+        bottom: -100px;
     }
 }

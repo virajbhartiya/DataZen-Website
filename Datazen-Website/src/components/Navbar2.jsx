@@ -34,12 +34,13 @@ function Navbar2() {
 
     if (isDropdownOpen==true) 
     {
-      document.body.classList.add('no-scroll');
+      document.body.classList.toggle('no-scroll');
     } 
-    else 
+    else
     {
-      document.body.classList.remove('no-scroll');
+      document.body.classList.toggle('no-scroll');
     }
+    
   };
 
   return (

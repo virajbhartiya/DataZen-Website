@@ -96,6 +96,245 @@ a
 }
 
 
+
+@media (min-width: 900px) 
+{
+.navbar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+    
+.menu
+{
+    display: none;
+}
+
+.navbar-center
+{
+    display: flex;
+    gap: 25px;
+    width: 358px;
+    margin: 0;
+    flex-basis: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18%;
+    
+}
+.navbar-center  a
+{
+    color: #444;
+    font-family: 'Inter';
+    font-size: 19.522px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 64px;
+    height: 13px;
+    flex-shrink: 0;
+    text-decoration: none;
+    font-weight: 900;
+    cursor: pointer;
+    text-align: center;
+    margin: 0;
+    
+}
+.navbar-center a:hover
+{
+    color: black;
+}
+
+.nav_link::after
+{
+    content: '';
+    height: 4px;
+    background-color: #8A0000;
+    width: 100%;
+    display: block;
+    border-radius: 2px;
+    margin-top: 10px;
+    
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    margin-top: 15px;
+}
+
+
+.navbar-left a:hover
+{
+    color: black;
+}
+
+.Somaiya_logo 
+{
+    width: 142px;
+    height: 41.186px;
+    flex-shrink: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-right: 14px;
+    
+   
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    margin: 0;
+    
+}
+
+
+.logo 
+{
+    flex-basis: 20%;
+}
+
+.dropdown
+{
+    display: none;
+}
+
+}
+
+@media (max-width:1060px)
+{
+    .navbar-center
+    {
+        display: none;
+    }
+    .menu
+    {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .navbar
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 41px;
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+        
+    }
+
+    
+    .menu-icon
+    {
+        height: 14px;
+        width: 23px;
+        margin-top: 28px;
+        margin: 0;
+        transform: scale(2);
+    }
+
+    .Somaiya_logo 
+    {
+        width: 142px;
+        height: 41.186px;
+        flex-shrink: 0;
+        margin: 0;
+        margin-top: 13px;
+        
+
+    }
+
+    button 
+    {
+        background-color: white;
+        border: 0;
+    }
+    
+
+.dropdown 
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    z-index: 500;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: 20px;
+    opacity: 0; 
+    transform: translateY(-10px);
+    animation: fadeIn 0.3s ease forwards; 
+  }
+  
+ 
+  .dropdown h3 {
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0; 
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    color: #444;
+    position: relative;
+    text-decoration: none;
+  }
+
+
+
+  .dropdown a 
+  {
+    text-decoration: none;
+  }
+  
+  
+  .dropdown h3::after 
+  {
+    content: '';
+    height: 2px;
+    background-color: #8A0000;
+    width: 100%;
+    display: block;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+ 
+  
+
+  @keyframes fadeIn 
+  {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+
+
+   
+}
+
+
+
 @media (max-width:1060px)
 {
 
@@ -186,7 +425,7 @@ a
 
     .navbar-image
     {
-        width: 40%;
+        width: 41%;
         margin: 5px;
         padding: 0;
         order: 2;
@@ -260,3 +499,14 @@ a
         order: 2;
     }
 }
+@media (max-width: 300px) 
+{
+    .navbar-image
+    {
+        width: 37%;
+        margin: 0;
+        padding: 0;
+        order: 2;
+    }
+}
+

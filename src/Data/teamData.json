@@ -55,7 +55,8 @@
     "linkedin": "https://www.linkedin.com/in/zaidali-merchant-047507224/",
     "github": "https://github.com/zeusopera9",
     "image": "/imgs/Zaidali_Merchant.png"
-  },{
+  },
+  {
     "index":8 ,
     "name": "Harsh Nagrani",
     "designation": "Tech Team",
@@ -166,6 +167,78 @@
     "linkedin": "https://www.linkedin.com/in/atharva-desai-164138225/",
     "github": "https://github.com/ATHARVA1202",
     "image": "/imgs/Atharva_Desai.png"
+  },
+  {
+    "index":22 ,
+    "name": "Vedant Shetty",
+    "designation": "FY Rep",
+    "linkedin": "https://www.linkedin.com/in/vedant-shetty-315853287",
+    "github": "https://github.com/PyKnight-vedant",
+    "image": "/imgs/Vedant_Shetty.png"
+  },
+  {
+    "index":23 ,
+    "name": "Sai Sidharth Parcha",
+    "designation": "FY Rep",
+    "linkedin": "https://www.linkedin.com/in/sai-parcha-396a61294/",
+    "github": "https://github.com/SaiParcha",
+    "image": "/imgs/Sai_Sidharth_Parcha.png"
+  },
+  {
+    "index":24 ,
+    "name": "Hriday Shah",
+    "designation": "FY Rep",
+    "linkedin": "https://www.linkedin.com/in/hriday-shah-09b33b288/",
+    "github": "https://github.com/cinnamon1952",
+    "image": "/imgs/Hriday_Shah.png"
+  },
+  {
+    "index":25 ,
+    "name": "Siddharth Chintawar",
+    "designation": "FY Rep",
+    "linkedin": "https://www.linkedin.com/in/siddharth-chintawar-a76366291",
+    "github": "https://github.com/sidc2123",
+    "image": "/imgs/Siddharth_Chintawar.png"
+  },
+  {
+    "index":26 ,
+    "name": "Swadha Kumari",
+    "designation": "FY Rep",
+    "linkedin": "https://www.linkedin.com/in/swadha-kumari-525a61294/ ",
+    "github": "https://github.com/Swadhaaaa",
+    "image": "/imgs/Swadha_Kumari.png"
+  },
+  {
+    "index":27 ,
+    "name": "Saniya Brahme",
+    "designation": "FY Rep",
+    "linkedin": "https://www.linkedin.com/in/saniya-brahme-b12660212/",
+    "github": "https://github.com/saniyabrahme",
+    "image": "/imgs/Saniya_Brahme.png"
+  },
+  {
+    "index":28 ,
+    "name": "Hiranya Patil",
+    "designation": "FY Rep",
+    "linkedin": "https://www.linkedin.com/in/hiranya-patil-01348727a",
+    "github": "",
+    "image": "/imgs/Hiranya_Patil.png"
+  },
+  {
+    "index":29 ,
+    "name": "Rida Kamil Nakhuda",
+    "designation": "FY Rep",
+    "linkedin": "https://www.linkedin.com/in/rida-nakhuda-5b019728a/",
+    "github": "https://github.com/Rida-14",
+    "image": "/imgs/Rida_Kamil_Nakhuda.png"
+  },
+  {
+    "index":30 ,
+    "name": "Vriddhi Shetty",
+    "designation": "FY Rep",
+    "linkedin": "https://www.linkedin.com/in/vriddhi-shetty-339378249",
+    "github": "https://github.com/Vriddhis",
+    "image": "/imgs/Vriddhi_Shetty.png"
   }
 
 ]

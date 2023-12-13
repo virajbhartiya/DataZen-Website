@@ -2,7 +2,7 @@
     {
       "title": "7 Days of Data Science",
       "content": "The 7 Days of Data Science Challenge is a week-long immersive online event taking place from August 16th to 22nd, 2023. It aims to provide participants with a comprehensive introduction to various aspects of Data Science.",
-      "img": "/imgs/7_days.jpg",
+      "img": "./imgs/7_days.jpg",
       "linkto": "https://www.figma.com/file/BuMG7YKn63oDxs7Yt2dxGe/datazen?node-id=0%3A1&mode=dev"
     },
     {
@@ -13,7 +13,7 @@
     {
         "title": "Beyond the Screen",
         "content": "The first event of DataZen 2023/24 that marked the onset of the Data Scraping journey of data science enthusiasts. This skill is particularly useful when working with non popular domains of data.",
-        "img": "./imgs/FY Meetup.jpg"
+        "img": "./imgs/web_scraping.png"
     }
   ]
   

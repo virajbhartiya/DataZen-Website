@@ -8,46 +8,42 @@ function Navbar2() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-  useEffect(() => 
-  {
-    const handleResize = () => 
-    {
+  useEffect(() => {
+    const handleResize = () => {
       setWindowWidth(window.innerWidth);
     };
 
     window.addEventListener('resize', handleResize);
 
-    return () => 
-    {
+    return () => {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
 
-  useEffect(() => 
-  {
+  useEffect(() => {
     setIsDropdownOpen(windowWidth <= 1060);
   }, [windowWidth]);
 
-  const toggleDropdown = () => 
-  {
+  const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
 
-    if (isDropdownOpen==true) 
-    {
-      document.body.classList.toggle('no-scroll');
-    } 
-    else
-    {
+    if (isDropdownOpen == true) {
       document.body.classList.toggle('no-scroll');
     }
-    
+    else {
+      document.body.classList.toggle('no-scroll');
+    }
+
   };
 
   return (
     <div className={`navbar-container ${isDropdownOpen ? 'fade-out' : ''}`}>
-      <div className='navbar-space'></div>
+      <div className='navbar-image'>
+        <img src={SomaiyaLogo} alt="" srcSet="" className='Somaiya_logo' />
+      </div>
+
       <div className="navbar-side" onClick={toggleDropdown}>
-      <button className='navbar-hamburger'>
+        <button className='navbar-hamburger'>
           {isDropdownOpen ? (
             <svg
               width="23"
@@ -95,11 +91,8 @@ function Navbar2() {
           </ScrollLink>
         </div>
       )}
+      <div className='navbar-space'></div>
 
-      <div className='navbar-space2'></div>
-      <div className='navbar-image'>
-        <img src={SomaiyaLogo} alt="" srcSet="" className='Somaiya_logo' />
-      </div>
     </div>
   );
 }

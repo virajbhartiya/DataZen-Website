@@ -8,7 +8,7 @@
 }
 .navbar-side
 {
-    width: 25%;
+    width: 15%;
     flex-shrink: 0;
     margin-top: 2px;
     display: flex;
@@ -178,12 +178,12 @@ a
 
 .Somaiya_logo 
 {
-    width: 142px;
-    height: 41.186px;
+    width: 250px;
+    height: 70px;
     flex-shrink: 0;
     margin: 0;
     margin-top: 20px;
-    margin-right: 14px;
+    margin-left: 14px;
     
    
 }
@@ -216,7 +216,7 @@ a
 {
     .navbar-center
     {
-        display: none;
+      display: none;
     }
     .menu
     {
@@ -253,8 +253,6 @@ a
         flex-shrink: 0;
         margin: 0;
         margin-top: 13px;
-        
-
     }
 
     button 
@@ -313,7 +311,7 @@ a
     border-radius: 2px;
     position: absolute;
     bottom: 0;
-    left: 0;
+    right: 0;
   }
   
  
@@ -343,14 +341,15 @@ a
     
       display: flex;
       width: 100%;
+      justify-content: space-between;
       
-      
-  }
-
-
-
-.navbar-container
-{
+    }
+    
+    
+    
+    .navbar-container
+    {
+  justify-content: space-between;
   background-color: white;
   position: fixed;
   z-index: 1500;
@@ -374,7 +373,6 @@ a
         min-height:70px;
         flex-shrink: 0;
         display: flex;
-        width: 50%;
         order: 1;
         margin-left: 20px;
  
@@ -398,7 +396,7 @@ a
         margin: 0;
         padding: 0;
         gap: 15px;
-        order: 3;
+        order: 2;
         z-index: 10;
         background-color: white;
         opacity: 0;
@@ -428,7 +426,7 @@ a
         width: 41%;
         margin: 5px;
         padding: 0;
-        order: 2;
+        order: 1;
     }
 
     .navbar-home::after
@@ -478,7 +476,7 @@ a
         width: 43%;
         margin: 5px;
         padding: 0;
-        order: 2;
+        order: 1;
     }
 
     .navbar-title
@@ -496,7 +494,7 @@ a
         width: 40%;
         margin: 0;
         padding: 0;
-        order: 2;
+        order: 1;
     }
 }
 @media (max-width: 300px) 
@@ -506,7 +504,11 @@ a
         width: 37%;
         margin: 0;
         padding: 0;
-        order: 2;
+        order: 1;
     }
 }
+
+
+
+
 

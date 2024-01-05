@@ -1,0 +1,12 @@
+.apply-button{
+  display: flex;
+  align-self: center;
+  height: 44px; 
+  width: fit-content;
+}
+@media (max-width: 1255px){
+  .event-content-box{
+    display: flex;
+    align-items: center;
+  }
+}

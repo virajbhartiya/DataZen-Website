@@ -6,6 +6,11 @@
     "linkto": "https://datathon-3.devfolio.co/"
   },
   {
+    "title": "Beyond the Screen",
+    "content": "The first event of DataZen 2023/24 that marked the onset of the Data Scraping journey of data science enthusiasts. This skill is particularly useful when working with non popular domains of data.",
+    "img": "./imgs/web_scraping.png"
+  },
+  {
     "title": "7 Days of Data Science",
     "content": "The 7 Days of Data Science Challenge is a week-long immersive online event taking place from August 16th to 22nd, 2023. It aims to provide participants with a comprehensive introduction to various aspects of Data Science.",
     "img": "./imgs/7_days.jpg"
@@ -14,10 +19,5 @@
     "title": "FY MEETUP",
     "content": "The \"FY Meetup\" that took place on August 6th, 2023, was an online event organized by Team DataZen, the Official Data Science Council of SVU. The event aimed to provide a platform for data enthusiasts to come together and engage in knowledge exchange, interactive learning, and community building.",
     "img": "./imgs/FY Meetup.jpg"
-  },
-  {
-    "title": "Beyond the Screen",
-    "content": "The first event of DataZen 2023/24 that marked the onset of the Data Scraping journey of data science enthusiasts. This skill is particularly useful when working with non popular domains of data.",
-    "img": "./imgs/web_scraping.png"
   }
 ]
